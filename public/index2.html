@@ -47,6 +47,11 @@ body  {
 	text-align: left;
 	font-size: 19px;
 }
+.thrColEls #container2 {
+	background-image: url(images/Tweet2.gif);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
 .accountname {
 	font-size: 16px;
 	font-style: italic;
@@ -82,6 +87,20 @@ body  {
     font-size: 1px;
     line-height: 0px;
 }
+.tweet_text2 {
+	height: 768px;
+	width: 200px;
+	padding-top: 475px;
+	font-family: Helvetica, Arial, sans-serif;
+	text-align: left;
+	font-size: 19px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 500px;
+}
+.style1 {
+	font-size: 17px
+}
 .hidden {
   display: none;
 }
@@ -98,18 +117,11 @@ body  {
 
 <body class="thrColEls">
 
-<div id="container">
-  <div id="sidebar1">
-    <img src="images/index_01.gif" width="331" height="768" alt="Left Ornaments" />
-    <!-- end #sidebar1 -->
+<div id="container2">
+  <div class="tweet_text2">
+    <p id="message" class="style1"><span class="status">Happy holidays from Calypso Communications!</span></p>
+    <p id="byline" class="accountname"><span class="author">@tex4272</span></p>
   </div>
-  <div id="sidebar2">
-    <div class="tweet_text">
-      <p id="message"><span class="status">Happy holidays from Calypso Communications!</span></p>
-      <p id="byline" class="accountname"><span class="author">@tex4272</span></p>
-    </div>
-  <img alt="Ornaments_Right" /></div>
-  <div id="mainContent"><img src="images/index_02.gif" width="269" height="768" alt="Ornaments Center" /></div>
   <!-- This clearing element should immediately follow the #mainContent div in order to force the #container div to contain all child floats --><br class="clearfloat" />
 <!-- end #container --></div>
 </body>
