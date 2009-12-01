@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $(this).everyTime(5000, 'updateTweet', updateTweet);
+  $(this).everyTime(10000, 'updateTweet', updateTweet);
 
   function updateTweet() {
     last_status = null;
